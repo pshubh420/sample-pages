@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.links {
+    display: grid;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+a {
+    border: 2px solid gray;
+    max-width: 500px;
+}

@@ -1,0 +1,272 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    height: 60px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #270082;
+    color: white;
+
+}
+
+.nav img {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section {
+    width: 100%;
+    height: 1024px;
+    background: url('/6.music page/song.png') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.hero-text {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.text-box {
+    max-width: 740px;
+}
+
+
+.second-sec {
+
+    /* background-color: #281154; */
+    background: linear-gradient(180deg, #281154 70%, white 30%);
+    color: white;
+}
+
+.music {
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.music img {
+    width: 50px;
+    height: auto;
+}
+
+.second-sec button {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.zero-ad {
+    font-size: 25px;
+}
+
+.trial-dis {
+    font-size: 15px;
+}
+
+.small-dis {
+    font-size: 10px;
+}
+
+.sec-box {
+
+    max-width: 800px;
+    text-align: center;
+
+}
+
+
+.second-sec {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 50px;
+}
+
+/* .lap-img {
+    position: absolute;
+    top: 1590px;
+    left: 280px;
+
+} */
+
+/* .lap-img img {
+    width: 915px;
+    height: auto;
+} */
+
+.white-sec button {
+    background-color: #37008E;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.white-sec {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.slim p {
+    font-weight: 200;
+
+}
+
+.white-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.third-sec {
+    height: 700px;
+    margin-top: 30px;
+    background: url('/6.music page/club.png') no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.third {
+    max-width: 915px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.gift-card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 580px));
+    justify-content: center;
+    gap: 40px;
+}
+
+.gift-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift-card button {
+
+    padding: 10px;
+    width: 90px;
+    border: none;
+    background-color: #37008E;
+    color: white;
+
+}
+
+#gift {
+    font-size: 30px;
+}
+
+.gift-dis {
+    font-weight: 300;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #1B0058;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-box {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+
+.link-title {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    background-color: #270082;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width: 820px) {
+    .nav img {
+        display: block;
+    }
+    .menu ul {
+        display: block;
+    }
+    .menu {
+         
+        width: 200px;
+        position: absolute;
+        right: 10px;
+        top: 70px;
+        background-color:#f9f9f9 ;
+        padding-top: 20px;
+        text-align: center;
+        display: none;
+        z-index: 10; 
+        
+    }
+
+   
+    .menu ul li a {
+        color: black;
+        display: block;
+    }
+  
+
+    .menu-img:hover .menu {
+        display: block;
+    }
+}
