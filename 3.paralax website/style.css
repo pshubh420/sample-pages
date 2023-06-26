@@ -9,7 +9,7 @@
 .first {
     height: 900px;
     width: 100%;
-    background-image:  url(/1.jfif);
+    background-image:  url(1.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -39,7 +39,7 @@
 
 .second {
     height: 800px;
-    background: url(/2.jfif) fixed; 
+    background: url(2.jfif) fixed; 
 }
 
 .first_text {
@@ -67,12 +67,12 @@
 
 .third {
     height: 800px;
-    background: url(/3.jfif) fixed;
+    background: url(3.jfif) fixed;
 
 }
 
 .last {
-    background: url(/4.jfif) fixed;
+    background: url(4.jfif) fixed;
 }
 
 @media  (max-width: 600px) {
